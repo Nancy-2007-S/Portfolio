@@ -2,7 +2,7 @@
 
 A cinematic, fully responsive developer portfolio with scroll-driven animation, a light / dark theme toggle, interactive carousels, and a working direct contact form. Built with plain HTML, CSS, and modern JavaScript, featuring **no build step** and instant deployment to Vercel.
 
-**Live site:** _add your Vercel URL here after deploying_
+**Live site:** [portfolio-nancy-s.vercel.app](https://portfolio-nancy-s.vercel.app)
 
 ---
 
