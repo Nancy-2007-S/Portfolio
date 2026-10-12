@@ -837,7 +837,7 @@ window.handleDirectMailSubmit = function(e) {
         }
         if (!r.ok || !(r.data.success === true || r.data.success === 'true')) throw new Error('not delivered');
         if (msgEl) msgEl.value = '';
-        showFeedback(true, "Message sent directly to Nancy's inbox! \u2713");
+        if (feedbackEl) feedbackEl.style.display = 'none';
         if (sendBtn) {
             sendBtn.disabled = false;
             sendBtn.innerHTML = '<span>SENT \u2713</span>';
