@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Nancy — Portfolio</title>
+    <meta name="description" content="Cinematic 3D Portfolio of Nancy — Software Developer & CS Engineer.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+    <script>try{var t=localStorage.getItem("theme");document.documentElement.setAttribute("data-theme",t==="light"?"light":"dark")}catch(e){document.documentElement.setAttribute("data-theme","dark")}</script>
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='%23fff' font-family='Georgia,serif' font-style='italic'%3EN%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css?v=26">
+    <link rel="stylesheet" href="responsive.css?v=8">
+    <link rel="stylesheet" href="theme-light.css?v=2">
+</head>
+<body class="intro-active">
+    
+    <!-- Dedicated Cinematic Intro Cover Page -->
+    <div id="intro-overlay">
+        <h1 class="intro-massive-name">NANCY</h1>
+    </div>
+
+
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="#" class="brand" aria-label="Nancy — home">Nancy</a>
+        </div>
+        <div class="nav-center" id="navMenu">
+            <a href="#home"        class="nav-link active">Home</a>
+            <a href="#about"       class="nav-link">About</a>
+            <a href="#projects"    class="nav-link">Projects</a>
+            <a href="#achievements" class="nav-link">Achievements</a>
+            <a href="#contact"     class="nav-link">Contact</a>
+        </div>
+        <div class="nav-right">
+            <a href="mailto:nancy54200717@gmail.com" class="icon-link" aria-label="Email" title="nancy54200717@gmail.com">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+            <a href="https://github.com/Nancy-2007-S" target="_blank" class="icon-link" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.298 24 12c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/nancy-s-182052329/" target="_blank" class="icon-link" aria-label="LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="https://codolio.com/profile/nancy" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="Codolio — competitive programming profile" title="Codolio"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 6 2 12 8 18"/><polyline points="16 6 22 12 16 18"/><line x1="14" y1="4" x2="10" y2="20"/></svg></a>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch to light mode" title="Toggle light / dark"><svg class="ico-moon" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="ico-sun" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.2M12 19.8V22M4.9 4.9l1.6 1.6M17.5 17.5l1.6 1.6M2 12h2.2M19.8 12H22M4.9 19.1l1.6-1.6M17.5 6.5l1.6-1.6"/></svg></button>
+            <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle Navigation" aria-expanded="false" aria-controls="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Content -->
+    <main class="hero-section" id="home">
+        <div class="hero-content hero-content-left">
+            <p class="hero-tagline"><span class="tag-mask"><span class="tag-word tag-strong">Software</span></span> <span class="tag-mask"><em class="tag-word tag-soft">Developer</em></span></p>
+            <span class="hero-rule"></span>
+        </div>
+        <div class="hero-blazer-wrap">
+            <img src="assets/world/nancy/Nancy_b2-Photoroom.png" alt="Nancy" class="hero-blazer-img">
+        </div>
+    </main>
+
+    <!-- SECTION: About Me -->
+    <section id="about" class="page-section">
+        <div class="portal-content about-columns">
+            <!-- LEFT: Photo Orbit -->
+            <div class="about-left reveal-up">
+                <div class="hero-photo-wrap about-photo-wrap">
+                    
+                    <div class="photo-orb about-orb">
+                        <img src="assets/world/nancy/nancy.jpeg" alt="Nancy" class="photo-img">
+                        <div class="photo-glow"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT: Intro Text & Description Card -->
+            <div class="about-right">
+                <h1 class="reveal-up about-intro-title">Intro</h1>
+                
+                <div class="orbital-info-card reveal-up">
+                    <p class="reveal-up" style="color: #cbd5e1; line-height: 1.8; margin-bottom: 40px; font-size: 1.05rem; transition-delay: 0.4s;">
+                        <span style="font-weight: 700; color: #fff;">Hey, I'm Nancy.</span> An enthusiastic Software Developer who loves to build state-of-the-art web and AI applications. I excel at turning complex algorithms into elegant, scalable products using tech stacks like <strong style="color: #fff;">React, JavaScript, Node.js, Python</strong> and advanced <strong style="color: #fff;">AI/ML</strong> architectures.
+                    </p>
+                    
+                    <!-- Dynamic View Counter Icon -->
+                    <div class="reveal-up" style="position: absolute; bottom: 30px; right: 30px; display: flex; flex-direction: column; align-items: center; gap: 8px; transition-delay: 0.5s;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.8; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        <span id="dynamic-views" style="color: #fff; font-weight: 700; font-size: 0.9rem;">...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // Dynamic View Counter Logic
+            document.addEventListener('DOMContentLoaded', () => {
+                let currentViews = localStorage.getItem('portfolio_views');
+                if (!currentViews) {
+                    currentViews = Math.floor(Math.random() * (1200 - 800) + 800); // Start securely around 800-1200
+                }
+                currentViews = parseInt(currentViews) + 1;
+                localStorage.setItem('portfolio_views', currentViews);
+                
+                // Format with commas (e.g. 1,024)
+                document.getElementById('dynamic-views').innerText = currentViews.toLocaleString();
+            });
+        </script>
+
+        <!-- BOTTOM Tags Marquee / Two Moving Skill Rows -->
+        <div class="portal-content reveal-up" style="margin-top: 50px; transition-delay: 0.6s;">
+            <div class="skills-marquee-container">
+                <!-- Row 1: Leftward Movement -->
+                <div class="skills-marquee-row">
+                    <div class="skills-marquee-track track-left">
+                        <div class="marquee-content">
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/react.svg" alt="React" class="tech-icon"> React.js</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/javascript.svg" alt="JS" class="tech-icon"> JavaScript</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/bootstrap.svg" alt="Bootstrap" class="tech-icon"> Bootstrap</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/html5.svg" alt="HTML5" class="tech-icon"> HTML5</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/css3.svg" alt="CSS3" class="tech-icon"> CSS3</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/python.svg" alt="Python" class="tech-icon"> Python</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/fastapi.svg" alt="FastAPI" class="tech-icon"> FastAPI</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/nodedotjs.svg" alt="Node.js" class="tech-icon"> Node.js</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/express.svg" alt="Express" class="tech-icon"> Express.js</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/mongodb.svg" alt="MongoDB" class="tech-icon"> MongoDB</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/postgresql.svg" alt="PostgreSQL" class="tech-icon"> PostgreSQL</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/openjdk.svg" alt="Java" class="tech-icon"> Java</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/cplusplus.svg" alt="C++" class="tech-icon"> C++</span>
+                        </div>
+                        <div class="marquee-content" aria-hidden="true">
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/react.svg" alt="React" class="tech-icon"> React.js</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/javascript.svg" alt="JS" class="tech-icon"> JavaScript</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/bootstrap.svg" alt="Bootstrap" class="tech-icon"> Bootstrap</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/html5.svg" alt="HTML5" class="tech-icon"> HTML5</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/css3.svg" alt="CSS3" class="tech-icon"> CSS3</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/python.svg" alt="Python" class="tech-icon"> Python</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/fastapi.svg" alt="FastAPI" class="tech-icon"> FastAPI</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/nodedotjs.svg" alt="Node.js" class="tech-icon"> Node.js</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/express.svg" alt="Express" class="tech-icon"> Express.js</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/mongodb.svg" alt="MongoDB" class="tech-icon"> MongoDB</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/postgresql.svg" alt="PostgreSQL" class="tech-icon"> PostgreSQL</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/openjdk.svg" alt="Java" class="tech-icon"> Java</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/cplusplus.svg" alt="C++" class="tech-icon"> C++</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Rightward Movement -->
+                <div class="skills-marquee-row">
+                    <div class="skills-marquee-track track-right">
+                        <div class="marquee-content">
+                            <span><svg class="tech-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path><circle cx="12" cy="10" r="3"></circle></svg> RAG</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/amazonaws.svg" alt="AWS" class="tech-icon"> AWS</span>
+                            <span><svg class="tech-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 4l6 6-6 6"></path><path d="M4 20l6-6"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="15" x2="15.01" y2="15"></line></svg> Prompt Engineering</span>
+                            <span><svg class="tech-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path><line x1="8" y1="9" x2="16" y2="9"></line><line x1="8" y1="13" x2="14" y2="13"></line></svg> NLP</span>
+                            <span><svg class="tech-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"></rect><circle cx="12" cy="5" r="2"></circle><path d="M12 7v4"></path><line x1="8" y1="16" x2="8.01" y2="16"></line><line x1="16" y1="16" x2="16.01" y2="16"></line></svg> Agentic AI</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/openai.svg" alt="ChatGPT" class="tech-icon"> ChatGPT</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/visualstudiocode.svg" alt="VS Code" class="tech-icon"> VS Code</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/git.svg" alt="Git" class="tech-icon"> Git</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" alt="GitHub" class="tech-icon"> GitHub</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/docker.svg" alt="Docker" class="tech-icon"> Docker</span>
+                            <span><svg class="tech-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg> CI/CD</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/postman.svg" alt="Postman" class="tech-icon"> Postman</span>
+                        </div>
+                        <div class="marquee-content" aria-hidden="true">
+                            <span><svg class="tech-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path><circle cx="12" cy="10" r="3"></circle></svg> RAG</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/amazonaws.svg" alt="AWS" class="tech-icon"> AWS</span>
+                            <span><svg class="tech-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 4l6 6-6 6"></path><path d="M4 20l6-6"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="15" x2="15.01" y2="15"></line></svg> Prompt Engineering</span>
+                            <span><svg class="tech-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path><line x1="8" y1="9" x2="16" y2="9"></line><line x1="8" y1="13" x2="14" y2="13"></line></svg> NLP</span>
+                            <span><svg class="tech-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"></rect><circle cx="12" cy="5" r="2"></circle><path d="M12 7v4"></path><line x1="8" y1="16" x2="8.01" y2="16"></line><line x1="16" y1="16" x2="16.01" y2="16"></line></svg> Agentic AI</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/openai.svg" alt="ChatGPT" class="tech-icon"> ChatGPT</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/visualstudiocode.svg" alt="VS Code" class="tech-icon"> VS Code</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/git.svg" alt="Git" class="tech-icon"> Git</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" alt="GitHub" class="tech-icon"> GitHub</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/docker.svg" alt="Docker" class="tech-icon"> Docker</span>
+                            <span><svg class="tech-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg> CI/CD</span>
+                            <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/postman.svg" alt="Postman" class="tech-icon"> Postman</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: Projects (Semi-Circular Orbital Arc Carousel) -->
+    <section id="projects" class="projects-arc-section">
+        <div class="projects-arc-sticky-viewport">
+            
+            <!-- Section Header -->
+            <div class="arc-projects-header">
+                <div class="arc-header-left">
+                    <h2 class="editorial-section-title"><span class="title-bold">FEATURED</span> <em class="title-italic">Projects</em></h2>
+                </div>
+                
+                <div class="arc-projects-counter">
+                    <span class="arc-counter-current" id="arc-counter-current">01</span>
+                    <span class="arc-counter-divider">/</span>
+                    <span class="arc-counter-total">04</span>
+                </div>
+            </div>
+
+            <!-- Semi-Circle Arc Visual Stage -->
+            <div class="arc-carousel-stage" id="arc-carousel-stage">
+                
+                <!-- Cards Moving Along Semi-Circle Path -->
+                <div class="arc-cards-container" id="arc-cards-container">
+
+                    <!-- CARD 01: VOICE LOGISTICS ASSISTANT -->
+                    <div class="arc-project-card active" data-index="0" onclick="selectArcProject(0)">
+                        <div class="arc-card-header">
+                            <span class="arc-card-num">01</span>
+                            <span class="arc-card-category">VOICE AI & LOGISTICS</span>
+                        </div>
+                        <h3 class="arc-card-title">VoiceLog Assistant</h3>
+                        <p class="arc-card-desc">Hands-free driver voice assistant with real-time Firebase telemetry & GPS routing.</p>
+                        <div class="arc-card-media">
+                            <video id="voicelog-video-arc" src="assets/world/projects/Voicelog.mp4" poster="assets/world/projects/Voicelog.jpg" preload="metadata" loop muted playsinline class="arc-video-el"></video>
+                            <button onclick="event.stopPropagation(); toggleMute('voicelog-video-arc', this)" class="arc-mute-btn">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg> Unmute
+                            </button>
+                        </div>
+                        <div class="arc-card-footer">
+                            <div class="arc-tech-list">
+                                <span class="arc-pill">Flask</span>
+                                <span class="arc-pill">Python</span>
+                                <span class="arc-pill">Speech API</span>
+                                <span class="arc-pill">Firebase</span>
+                            </div>
+                            <a href="https://github.com/Nancy-2007-S/Voice_Logistics_Assistant.git" class="arc-github-btn" target="_blank" onclick="event.stopPropagation();">REPO ↗</a>
+                        </div>
+                    </div>
+
+                    <!-- CARD 02: EDUCATION MANAGEMENT PORTAL -->
+                    <div class="arc-project-card" data-index="1" onclick="selectArcProject(1)">
+                        <div class="arc-card-header">
+                            <span class="arc-card-num">02</span>
+                            <span class="arc-card-category">EDTECH & ENTERPRISE</span>
+                        </div>
+                        <h3 class="arc-card-title">Education Portal</h3>
+                        <p class="arc-card-desc">Enterprise academic management suite for student records & telemetry analytics.</p>
+                        <div class="arc-card-media">
+                            <video id="eduportal-video-arc" src="assets/world/projects/EduPortal.mp4" poster="assets/world/projects/EduPortal.jpg" preload="metadata" loop muted playsinline class="arc-video-el"></video>
+                            <button onclick="event.stopPropagation(); toggleMute('eduportal-video-arc', this)" class="arc-mute-btn">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg> Unmute
+                            </button>
+                        </div>
+                        <div class="arc-card-footer">
+                            <div class="arc-tech-list">
+                                <span class="arc-pill">Python</span>
+                                <span class="arc-pill">JavaScript</span>
+                                <span class="arc-pill">MySQL</span>
+                            </div>
+                            <a href="https://github.com/Nancy-2007-S/Education-Management-Portal" class="arc-github-btn" target="_blank" onclick="event.stopPropagation();">REPO ↗</a>
+                        </div>
+                    </div>
+
+                    <!-- CARD 03: PERSONALITY TRAIT AI -->
+                    <div class="arc-project-card" data-index="2" onclick="selectArcProject(2)">
+                        <div class="arc-card-header">
+                            <span class="arc-card-num">03</span>
+                            <span class="arc-card-category">MACHINE LEARNING</span>
+                        </div>
+                        <h3 class="arc-card-title">Personality Trait AI</h3>
+                        <p class="arc-card-desc">Psychometric OCEAN trait predictor powered by NLP and PyTorch ML models.</p>
+                        <div class="arc-card-media">
+                            <video id="personality-video-arc" src="assets/world/projects/Personality_Trait.mp4" poster="assets/world/projects/Personality_Trait.jpg" preload="metadata" loop muted playsinline class="arc-video-el"></video>
+                            <button onclick="event.stopPropagation(); toggleMute('personality-video-arc', this)" class="arc-mute-btn">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg> Unmute
+                            </button>
+                        </div>
+                        <div class="arc-card-footer">
+                            <div class="arc-tech-list">
+                                <span class="arc-pill">Python</span>
+                                <span class="arc-pill">PyTorch</span>
+                                <span class="arc-pill">NLP</span>
+                            </div>
+                            <a href="https://github.com/Nancy-2007-S/Personality_Trait_Detection" class="arc-github-btn" target="_blank" onclick="event.stopPropagation();">REPO ↗</a>
+                        </div>
+                    </div>
+
+                    <!-- CARD 04: AMAZON ML CHALLENGE -->
+                    <div class="arc-project-card" data-index="3" onclick="selectArcProject(3)">
+                        <div class="arc-card-header">
+                            <span class="arc-card-num">04</span>
+                            <span class="arc-card-category">ENTITY RESOLUTION</span>
+                        </div>
+                        <h3 class="arc-card-title">Amazon ML Challenge</h3>
+                        <p class="arc-card-desc">F0.5 optimized LightGBM ensemble pipeline for product entity resolution.</p>
+                        <div class="arc-card-media">
+                            <img src="assets/world/projects/amazon-ml-challenge-2026.webp" alt="Amazon ML Challenge 2026" class="arc-video-el" style="object-fit: contain; background: #08080d;">
+                        </div>
+                        <div class="arc-card-footer">
+                            <div class="arc-tech-list">
+                                <span class="arc-pill">LightGBM</span>
+                                <span class="arc-pill">Sklearn</span>
+                                <span class="arc-pill">Pandas</span>
+                            </div>
+                            <a href="https://github.com/Nancy-2007-S/Amazon_ML_Challenge" class="arc-github-btn" target="_blank" onclick="event.stopPropagation();">REPO ↗</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Projects Unified Navigation Controls Dock (Matching Reference) -->
+            <div class="project-nav-dock" id="projectNavDock">
+                <button class="project-dock-arrow prev" onclick="stepArcCarousel(-1)" aria-label="Previous Project">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                    </svg>
+                </button>
+
+                <div class="project-dock-indicators" id="projectDockIndicators">
+                    <button class="project-dock-dot active" onclick="selectArcProject(0)" aria-label="Project 1"></button>
+                    <button class="project-dock-dot" onclick="selectArcProject(1)" aria-label="Project 2"></button>
+                    <button class="project-dock-dot" onclick="selectArcProject(2)" aria-label="Project 3"></button>
+                    <button class="project-dock-dot" onclick="selectArcProject(3)" aria-label="Project 4"></button>
+                </div>
+
+                <button class="project-dock-arrow next" onclick="stepArcCarousel(1)" aria-label="Next Project">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION: Achievements (3D Coverflow Perspective Stage) -->
+    <section id="achievements" class="page-section achievements-flow-section">
+        <div class="portal-content">
+            <div class="achievements-section-header reveal-up">
+                <h2 class="editorial-section-title"><span class="title-bold">MY</span> <em class="title-italic">Achievements</em></h2>
+            </div>
+
+            <!-- 3D Perspective Stage Wrapper -->
+            <div class="achieve-flow-wrapper reveal-up" id="achieveFlowWrapper">
+                <div class="achieve-flow-stage" id="achieveFlowStage">
+
+                    <!-- Card 01: CODE RELAY (Utsava's 2026 - Sri Ramakrishna Engineering College) -->
+                    <div class="achieve-flow-card" data-index="0">
+                        <div class="achieve-card-media">
+                            <img src="assets/world/achievements/codeRelay.png" alt="Code Relay Utsava's 2026" class="achieve-media-el" style="object-position: center top;">
+                            <div class="achieve-media-overlay"></div>
+                        </div>
+                        <button class="achieve-info-toggle" title="Tap to toggle info" aria-label="Toggle info">
+                            <svg class="info-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2a4 4 0 0 1 4 4"></path>
+                                <path d="M9.5 11.5V5.5a1.5 1.5 0 0 1 3 0v6"></path>
+                                <path d="M12.5 10.5a1.5 1.5 0 0 1 3 0v2"></path>
+                                <path d="M15.5 12a1.5 1.5 0 0 1 3 0v2.5a6 6 0 0 1-6 6h-1a6 6 0 0 1-5.6-3.8l-1.3-3.3a1.5 1.5 0 0 1 2.5-1.5L8 14.5"></path>
+                            </svg>
+                            <span class="info-toggle-label">Tap</span>
+                        </button>
+                        <div class="achieve-card-caption">
+                            <span class="achieve-card-tag">WINNER</span>
+                            <h3 class="achieve-card-title">CODE RELAY</h3>
+                            <p class="achieve-card-desc">Bagged ₹3,000 cash prize at Utsava's 2026 (SREC) with team after 3 intense speed-coding rounds.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 02: CAMPUS INSPIRATION (Freshers Keynote at KIT) -->
+                    <div class="achieve-flow-card card-inspiration" data-index="1">
+                        <div class="achieve-card-media">
+                            <img src="assets/world/achievements/inspiration.png" alt="Keynote Address & Junior Inspiration at KIT" class="achieve-media-el">
+                            <div class="achieve-media-overlay"></div>
+                        </div>
+                        <button class="achieve-info-toggle" title="Tap to toggle info" aria-label="Toggle info">
+                            <svg class="info-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2a4 4 0 0 1 4 4"></path>
+                                <path d="M9.5 11.5V5.5a1.5 1.5 0 0 1 3 0v6"></path>
+                                <path d="M12.5 10.5a1.5 1.5 0 0 1 3 0v2"></path>
+                                <path d="M15.5 12a1.5 1.5 0 0 1 3 0v2.5a6 6 0 0 1-6 6h-1a6 6 0 0 1-5.6-3.8l-1.3-3.3a1.5 1.5 0 0 1 2.5-1.5L8 14.5"></path>
+                            </svg>
+                            <span class="info-toggle-label">Tap</span>
+                        </button>
+                        <div class="achieve-card-caption">
+                            <span class="achieve-card-tag">INSPIRATION</span>
+                            <h3 class="achieve-card-title">KIT</h3>
+                            <p class="achieve-card-desc">Delivered hackathon keynote at KIT — inspiring juniors on stage presence, communication, and tech leadership.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 03: TN IMPACT (Tamil Nadu's Largest Industrial Hackathon) -->
+                    <div class="achieve-flow-card" data-index="2">
+                        <div class="achieve-card-media">
+                            <img src="assets/world/achievements/TnImpact.jpeg" alt="TN Impact Runner-Up" class="achieve-media-el">
+                            <div class="achieve-media-overlay"></div>
+                        </div>
+                        <button class="achieve-info-toggle" title="Tap to toggle info" aria-label="Toggle info">
+                            <svg class="info-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2a4 4 0 0 1 4 4"></path>
+                                <path d="M9.5 11.5V5.5a1.5 1.5 0 0 1 3 0v6"></path>
+                                <path d="M12.5 10.5a1.5 1.5 0 0 1 3 0v2"></path>
+                                <path d="M15.5 12a1.5 1.5 0 0 1 3 0v2.5a6 6 0 0 1-6 6h-1a6 6 0 0 1-5.6-3.8l-1.3-3.3a1.5 1.5 0 0 1 2.5-1.5L8 14.5"></path>
+                            </svg>
+                            <span class="info-toggle-label">Tap</span>
+                        </button>
+                        <div class="achieve-card-caption">
+                            <span class="achieve-card-tag">RUNNER-UP</span>
+                            <h3 class="achieve-card-title">TN IMPACT</h3>
+                            <p class="achieve-card-desc">Secured Runner-Up position & ₹75,000 cash prize at TN Impact, Tamil Nadu's largest industrial hackathon.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 04: MUNICH GLOBAL STAGE -->
+                    <div class="achieve-flow-card has-video" data-index="3">
+                        <div class="achieve-card-media">
+                            <video id="achieve-vid-4" src="assets/world/achievements/intro.mp4" poster="assets/world/achievements/intro.jpg" preload="auto" loop muted playsinline class="achieve-media-el"></video>
+                            <button onclick="event.stopPropagation(); toggleMute('achieve-vid-4', this)" class="achieve-mute-btn" title="Toggle audio" aria-label="Toggle sound">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+                                <span>Unmute</span>
+                            </button>
+                            <div class="achieve-media-overlay"></div>
+                        </div>
+                        <button class="achieve-info-toggle" title="Tap to toggle info" aria-label="Toggle info">
+                            <svg class="info-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2a4 4 0 0 1 4 4"></path>
+                                <path d="M9.5 11.5V5.5a1.5 1.5 0 0 1 3 0v6"></path>
+                                <path d="M12.5 10.5a1.5 1.5 0 0 1 3 0v2"></path>
+                                <path d="M15.5 12a1.5 1.5 0 0 1 3 0v2.5a6 6 0 0 1-6 6h-1a6 6 0 0 1-5.6-3.8l-1.3-3.3a1.5 1.5 0 0 1 2.5-1.5L8 14.5"></path>
+                            </svg>
+                            <span class="info-toggle-label">Tap</span>
+                        </button>
+                        <div class="achieve-card-caption">
+                            <span class="achieve-card-tag">GSC</span>
+                            <h3 class="achieve-card-title">TUM</h3>
+                            <p class="achieve-card-desc">Represented India on Global platform in Munich Germany for the Global Sustainability Challenge</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 05: GLOBAL SUSTAINABILITY CHALLENGE (South Asia Regional Finale) -->
+                    <div class="achieve-flow-card" data-index="4">
+                        <div class="achieve-card-media">
+                            <img src="assets/world/achievements/gsc.jpeg" alt="Global Sustainability Challenge South Asia Regional Finale Winners" class="achieve-media-el">
+                            <div class="achieve-media-overlay"></div>
+                        </div>
+                        <button class="achieve-info-toggle" title="Tap to toggle info" aria-label="Toggle info">
+                            <svg class="info-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2a4 4 0 0 1 4 4"></path>
+                                <path d="M9.5 11.5V5.5a1.5 1.5 0 0 1 3 0v6"></path>
+                                <path d="M12.5 10.5a1.5 1.5 0 0 1 3 0v2"></path>
+                                <path d="M15.5 12a1.5 1.5 0 0 1 3 0v2.5a6 6 0 0 1-6 6h-1a6 6 0 0 1-5.6-3.8l-1.3-3.3a1.5 1.5 0 0 1 2.5-1.5L8 14.5"></path>
+                            </svg>
+                            <span class="info-toggle-label">Tap</span>
+                        </button>
+                        <div class="achieve-card-caption">
+                            <span class="achieve-card-tag">SOUTH ASIA WINNER · GSC</span>
+                            <h3 class="achieve-card-title">IIT BOMBAY</h3>
+                            <p class="achieve-card-desc">Won South Asia Regional Finale among 55 teams from 12 countries — heading to Munich, Germany.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- Navigation Controls Dock -->
+                <div class="achieve-flow-controls">
+                    <button class="flow-nav-arrow flow-prev-btn" id="achieveFlowPrev" aria-label="Previous Slide">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                    </button>
+                    
+                    <div class="achieve-flow-dots" id="achieveFlowDots">
+                        <!-- Dynamically filled with dot pills -->
+                    </div>
+
+                    <button class="flow-nav-arrow flow-next-btn" id="achieveFlowNext" aria-label="Next Slide">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECTION: Contact (Editorial Minimalist Style) -->
+    <section id="contact" class="page-section editorial-contact-section">
+        <div class="portal-content editorial-contact-container">
+            
+            <!-- Editorial Top Row: Heading on Left & Direct Mailbox in Right Gap -->
+            <div class="editorial-contact-hero">
+                <!-- Massive Editorial Statement -->
+                <div class="editorial-heading-wrap reveal-up">
+                    <h2 class="editorial-contact-title">
+                        <span class="editorial-line">LET'S</span>
+                        <span class="editorial-line">CREATE</span>
+                        <span class="editorial-line">SOMETHING</span>
+                    </h2>
+                </div>
+
+                <!-- Right Side Gap: Direct Mail Box -->
+                <div class="editorial-mailbox-wrap reveal-up">
+                    <div class="editorial-mailbox-card">
+                        
+                        <h3 class="mailbox-title">SAY HELLO</h3>
+                       
+                        <form id="directMailForm" class="mailbox-form" onsubmit="handleDirectMailSubmit(event)">
+
+                            <div class="mailbox-field">
+                                <textarea id="mailMessageText" class="mailbox-textarea" rows="4" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <div class="mailbox-actions">
+                                <button type="submit" class="mailbox-submit-btn" id="mailboxSendBtn">
+                                    <span>SEND MESSAGE</span>
+                                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                </button>
+                                <span class="mailbox-target-hint">nancy54200717@gmail.com</span>
+                            </div>
+                            <p class="mailbox-feedback" id="mailboxFeedback" role="status" aria-live="polite" style="display:none"><span id="mailboxFeedbackText"></span></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Minimalist Channels Grid -->
+            <div class="editorial-channels-grid reveal-up">
+                <!-- Channel 1: Email -->
+                <div class="editorial-channel-card">
+                    <a href="mailto:nancy54200717@gmail.com" class="channel-main-link" aria-label="Send Email">
+                        <div class="channel-top">
+                            <span class="channel-category">01 / DIRECT CONTACT</span>
+                            <span class="channel-arrow">↗</span>
+                        </div>
+                        <div class="channel-name">EMAIL</div>
+                        <div class="channel-detail">nancy54200717@gmail.com</div>
+                    </a>
+                    <button class="channel-copy-btn" onclick="copyEmailToClipboard(this)" title="Copy Email Address" aria-label="Copy Email">
+                        <span class="copy-badge">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                            <span>COPY</span>
+                        </span>
+                    </button>
+                </div>
+
+                <!-- Channel 2: GitHub -->
+                <div class="editorial-channel-card">
+                    <a href="https://github.com/Nancy-2007-S" target="_blank" rel="noopener noreferrer" class="channel-main-link" aria-label="GitHub Profile">
+                        <div class="channel-top">
+                            <span class="channel-category">02 / CODE REPOSITORY</span>
+                            <span class="channel-arrow">↗</span>
+                        </div>
+                        <div class="channel-name">GITHUB</div>
+                        <div class="channel-detail">@Nancy-2007-S</div>
+                    </a>
+                </div>
+
+                <!-- Channel 3: LinkedIn -->
+                <div class="editorial-channel-card">
+                    <a href="https://linkedin.com/in/nancy-s-182052329/" target="_blank" rel="noopener noreferrer" class="channel-main-link" aria-label="LinkedIn Profile">
+                        <div class="channel-top">
+                            <span class="channel-category">03 / NETWORK</span>
+                            <span class="channel-arrow">↗</span>
+                        </div>
+                        <div class="channel-name">LINKEDIN</div>
+                        <div class="channel-detail">nancy-s-182052329</div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Minimal Clean Footer with CSS Blur Effect -->
+    <footer class="site-minimal-footer">
+        <div class="minimal-footer-content">
+            <p class="minimal-footer-copy">© 2026 Nancy. All Rights Reserved.</p>
+            <div class="minimal-footer-icons">
+                <a href="mailto:nancy54200717@gmail.com" class="footer-icon-link" aria-label="Email" title="nancy54200717@gmail.com">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </a>
+                <a href="https://github.com/Nancy-2007-S" target="_blank" class="footer-icon-link" aria-label="GitHub" title="GitHub">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.298 24 12c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+                <a href="https://linkedin.com/in/nancy-s-182052329/" target="_blank" class="footer-icon-link" aria-label="LinkedIn" title="LinkedIn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </a>
+                <a href="https://codolio.com/profile/nancy" target="_blank" rel="noopener noreferrer" class="footer-icon-link" aria-label="Codolio" title="Codolio"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 6 2 12 8 18"/><polyline points="16 6 22 12 16 18"/><line x1="14" y1="4" x2="10" y2="20"/></svg></a>
+            </div>
+            <a href="#home" class="minimal-back-to-top" aria-label="Back to top">
+                <span>Top ↑</span>
+            </a>
+        </div>
+    </footer>
+
+
+
+    <!-- GSAP & ScrollTrigger for Cinematic Transitions -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Lenis for Silky Smooth Inertial Scrolling -->
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+
+    <!-- Cache-busted script tag: change ?v= if you update the file -->
+    <script src="script.js?v=34"></script>
+    <script src="motion.js?v=3"></script>
+    <script src="theme.js?v=1"></script>
+    <script>
+        // Always reset scroll to top (#home) on reload before intro begins
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        window.scrollTo(0, 0);
+
+        // Initialize Intro animation once DOM loads
+        window.addEventListener('DOMContentLoaded', () => {
+            window.scrollTo(0, 0);
+            document.body.classList.add('intro-active');
+            
+            // 1. Cinematic Intro Text Animation
+            var nameEl = document.querySelector('.intro-massive-name');
+            setTimeout(() => {
+                if (nameEl) nameEl.classList.add('animate-in');
+            }, 150);
+
+            // Morph NANCY into PORTFOLIO letter by letter
+            setTimeout(() => {
+                if (!nameEl) return;
+                var targetWord = "PORTFOLIO";
+                var currentWord = "NANCY";
+                var index = 0;
+                
+                var typeInterval = setInterval(() => {
+                    if (index < targetWord.length) {
+                        currentWord = targetWord.substring(0, index + 1) + currentWord.substring(index + 1);
+                        nameEl.innerText = currentWord;
+                        index++;
+                    } else {
+                        clearInterval(typeInterval);
+                    }
+                }, 130);
+            }, 1300);
+
+            setTimeout(() => {
+                var overlay = document.getElementById('intro-overlay');
+                if (overlay) {
+                    overlay.classList.add('finished');
+                }
+                document.body.classList.remove('intro-active');
+                document.dispatchEvent(new Event('intro:done'));
+            }, 3500); // Overlay background dissolves into the 3D space after PORTFOLIO finishes typing
+
+            // 3. Scroll Reveal Engine
+            const observerOptions = {
+                threshold: 0.2, // Fire when 20% of the element is visible
+                rootMargin: "0px"
+            };
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    } else {
+                        entry.target.classList.remove('active');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.reveal-up').forEach(el => {
+                observer.observe(el);
+            });
+        });
+
+        function toggleMute(id, btn) {
+            var v = document.getElementById(id);
+            if (!v) return;
+            v.muted = !v.muted;
+            var on = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg> Mute';
+            var off = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg> Unmute';
+            btn.innerHTML = v.muted ? off : on;
+            if (!v.muted) { v.play().catch(function(){}); }
+            if (id === 'achieve-vid-4') window.__achieveHold = !v.muted; // sound on = carousel stays put
+        }
+    </script>
+</body>
+</html>
