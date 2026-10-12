@@ -176,7 +176,7 @@ img, video { max-width: 100%; }
     .nav-center.mobile-active .nav-link:nth-child(5) { transition-delay: .2s; }
 }
 
-/* Performance: full-screen blur over the WebGL canvas is the main scroll-jank source */
+/* Performance: remove backdrop-filter on page sections to prevent scroll-jank */
 .page-section { backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }
 @media (max-width: 960px) { .arc-project-card, .editorial-mailbox-card, .arc-projects-counter { backdrop-filter: none !important; -webkit-backdrop-filter: none !important; } }
 

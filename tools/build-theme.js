@@ -65,7 +65,6 @@ for (const file of ['style.css', 'responsive.css']) {
 const EXTRAS = `
 html[data-theme="light"]{color-scheme:light}
 html[data-theme="light"] body{background:#f4f2ee}
-html[data-theme="light"] #canvas-container{display:none}
 
 html[data-theme="light"] .arc-project-card,html[data-theme="light"] .achieve-flow-card{box-shadow:0 18px 40px rgba(30,30,50,.18)!important;border-color:rgba(17,17,22,.16)!important}
 html[data-theme="light"] .achieve-flow-card.is-active{box-shadow:0 24px 55px rgba(30,30,50,.26)!important;border-color:rgba(17,17,22,.3)!important}

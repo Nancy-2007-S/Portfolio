@@ -201,16 +201,6 @@ h3 {
     text-transform: uppercase;
 }
 
-/* 3D Canvas Background */
-#canvas-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -2;
-    background: radial-gradient(ellipse at center, #020408 0%, #000000 70%);
-}
 
 /* Navigation - Glassy, Minimal, Apple-like */
 .navbar {
