@@ -825,6 +825,16 @@ window.handleDirectMailSubmit = function(e) {
         return res.json().catch(function () { return {}; }).then(function (data) { return { ok: res.ok, data: data }; });
     })
     .then(function (r) {
+        var msg = (r.data && r.data.message) ? String(r.data.message) : '';
+        if (msg.toLowerCase().indexOf('activation') !== -1) {
+            showFeedback(true, "Activation email sent! Please check nancy54200717@gmail.com and click 'Activate Form'.");
+            if (sendBtn) {
+                sendBtn.disabled = false;
+                sendBtn.innerHTML = '<span>CHECK EMAIL</span>';
+                setTimeout(function () { sendBtn.innerHTML = originalBtnHTML; }, 5000);
+            }
+            return;
+        }
         if (!r.ok || !(r.data.success === true || r.data.success === 'true')) throw new Error('not delivered');
         if (msgEl) msgEl.value = '';
         showFeedback(true, "Message sent directly to Nancy's inbox! \u2713");
